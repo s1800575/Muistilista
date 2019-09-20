@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Muistilista_1</string>
+    <string name="ohje">Kirjoita lisättäva asia ...</string>
+    <string name="lisaa">+</string>
+    <string name="poista">-</string>
+    <string name="nolla">0</string>
+    <string name="lisaaTuote">Lisää tuote</string>
+
+</resources>
