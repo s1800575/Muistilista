@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:scrollbars="vertical"
+    android:nestedScrollingEnabled="false"
+    android:fadeScrollbars="false">
 
     <TextView
         android:id="@+id/textview_amount_item"
@@ -14,7 +18,7 @@
         android:id="@+id/textview_name_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Empty Item"
+        android:text="@string/empty_item"
         android:textSize="30sp" />
 
 
